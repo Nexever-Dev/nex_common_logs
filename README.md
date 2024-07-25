@@ -169,16 +169,3 @@ void someMethod() {
 
 Contributions are welcome! Please create an issue or pull request on GitHub.
 
-## License
-
-This package is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-```
-
-This `README.md` file includes instructions for installation, usage examples, and configuration options for your package. You can adjust any parts of it according to your specific needs.
-
-
-
-
-# nex_common_logs
-# nex_common_logs
