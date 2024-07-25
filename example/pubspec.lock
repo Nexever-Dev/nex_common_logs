@@ -134,11 +134,10 @@ packages:
   nex_common_logs:
     dependency: "direct main"
     description:
-      name: nex_common_logs
-      sha256: "1787658a242156cfceddc3d0ba5c89ae507d78c03b97ac6adfa04a12d6495f1f"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.3"
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.4"
   path:
     dependency: transitive
     description:

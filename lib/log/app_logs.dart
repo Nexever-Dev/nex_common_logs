@@ -308,8 +308,8 @@ extension ErrorLogs on Object {
   /// Logs a message with the specified [text] and [fileName].
   ///
   /// The log message is associated with the runtime type of the object.
-  void logMessage({String? text, String? fileName}) {
-    AppLogs.logMessage(text, name: fileName);
+  void logMessage({String? text, String? name}) {
+    AppLogs.logMessage(text, name: name??runtimeType.toString());
   }
 
   /// Logs an error with the specified [error], [text], [stackTrace], and [fileName].
@@ -319,11 +319,11 @@ extension ErrorLogs on Object {
     String? text, {
     String? error,
     StackTrace? stackTrace,
-    String? fileName,
+    String? name,
   }) {
     AppLogs.logError(
       text,
-      name: fileName,
+      name: name??runtimeType.toString(),
       error: error,
       stackTrace: stackTrace,
     );
@@ -332,8 +332,8 @@ extension ErrorLogs on Object {
   /// Logs a success message with the specified [text] and [fileName].
   ///
   /// The success message is associated with the runtime type of the object.
-  void logSuccess({String? text, String? fileName}) {
-    AppLogs.logMessage(text, name: fileName);
+  void logSuccess(String? text, {String? fileName}) {
+    AppLogs.logMessage(text, name: fileName??runtimeType.toString());
   }
 
   /// Logs a warning with the specified [error], [text], [stackTrace], and [fileName].
@@ -343,11 +343,11 @@ extension ErrorLogs on Object {
     String? text, {
     String? error,
     StackTrace? stackTrace,
-    String? fileName,
+    String? name,
   }) {
     AppLogs.logWarning(
       text,
-      name: fileName,
+      name: name??runtimeType.toString(),
       error: error,
       stackTrace: stackTrace,
     );

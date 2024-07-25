@@ -32,27 +32,28 @@ class MyHomePage extends StatelessWidget {
           children: <Widget>[
             ElevatedButton(
               onPressed: () {
-                this.logMessage(text: 'This is a simple log message');
+
+              logMessage(text: 'This is a simple log message');
               },
               child: Text('Log Message'),
             ),
             ElevatedButton(
               onPressed: () {
-                this.logError('This is an error log message',
+                logError('This is an error log message',
                     error: 'Error details here');
               },
               child: Text('Log Error'),
             ),
             ElevatedButton(
               onPressed: () {
-                this.logWarning('This is a warning log message',
+                logWarning('This is a warning log message',
                     error: 'Warning details here');
               },
               child: Text('Log Warning'),
             ),
             ElevatedButton(
               onPressed: () {
-                this.logSuccess(text: 'This is a success log message');
+                logSuccess( 'This is a success log message');
               },
               child: Text('Log Success'),
             ),
@@ -60,5 +61,11 @@ class MyHomePage extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+class Tetes {
+  dfdf() {
+    logError("This is test", error: "erererer");
   }
 }
