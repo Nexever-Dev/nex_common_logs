@@ -38,7 +38,7 @@ void logg(
     time: time,
     sequenceNumber: sequenceNumber,
     level: level,
-    // name: name,
+    name: name,
     zone: zone,
     error: error,
     stackTrace: stackTrace,
