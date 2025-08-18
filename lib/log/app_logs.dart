@@ -344,6 +344,7 @@ extension ErrorLogs on Object {
     String? error,
     StackTrace? stackTrace,
     String? name,
+    String? fileName,
   }) {
     AppLogs.logWarning(
       text,

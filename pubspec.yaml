@@ -1,7 +1,7 @@
 name: nex_common_logs
 description: nex_common_logs is a Dart package providing a utility for logging messages with different severity levels. It supports customizable log message formatting, including colors and file name integration, making it ideal for developers who want structured and easily distinguishable logs in their Flutter applications.
 
-version: 0.0.5
+version: 0.0.6
 repository: https://github.com/Nexever-Dev/nex_common_logs.git
 homepage: https://github.com/Nexever-Dev/nex_common_logs/blob/main/example/lib/main.dart
 
@@ -16,7 +16,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

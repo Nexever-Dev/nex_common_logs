@@ -1,3 +1,7 @@
+## 0.0.6
+
+* Code updated to 36 api
+
 ## 0.0.5
 
 * object ref attached
