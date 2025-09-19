@@ -1,3 +1,6 @@
+## 0.0.7
+* Code updated 
+
 ## 0.0.6
 
 * Code updated to 36 api

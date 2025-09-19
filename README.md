@@ -17,7 +17,7 @@ Add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  nex_common_logs: ^1.0.0
+  nex_common_logs: ^0.0.7
 ```
 
 Run `flutter pub get` to install the package.
